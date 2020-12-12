@@ -104,8 +104,16 @@
     }
 }
 
-@media (max-width: 990px){
-
+@media (max-width: 190px){
+    .home {
+        display: flex;
+        min-height: 100vh;
+        background: url(../img/fundo.jpg) no-repeat center ;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #ffffff;
+        font-family: 'ubunto', sans-serif;
+    }
 }
 
 @media (max-width: 990px){
