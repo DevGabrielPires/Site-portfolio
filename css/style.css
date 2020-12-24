@@ -165,28 +165,35 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("./img/fundo.jpg") no-repeat center;
+    background: url("/img/fundo-site.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    opacity: 0.9;
 }
 .home .max-width{
     margin: auto 0 auto 30px;
 }
 .home .home-content .text-1{
     font-size: 27px;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
 }
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
 }
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
 }
 .home .home-content .text-3 span{
     color: crimson;
