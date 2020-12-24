@@ -192,7 +192,7 @@ section .title::after{
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
-    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-width: 1px; /* largura da borda */
     -webkit-text-stroke-color: #000; /* cor da borda */
 }
 .home .home-content .text-3 span{
